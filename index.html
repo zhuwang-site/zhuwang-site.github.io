@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhu Wang</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Zhu Wang</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <!-- <a href="#cv">CV</a> -->
+        <a href="pdf/CV-August2024.pdf" target="_blank">CV</a>
+
+    </nav>
+<!-- About Section -->
+    <div class="content" id="about">
+        <h2>About Me</h2>
+        <div class="about-section">
+            <div>
+                <img src="image/photo.jpg" alt="headshot" class="profile-photo">
+            </div>
+            <div class=icon-section>
+                <div class="icon-link">
+                    <img class="icons" src="image/icon_google_scholar.png" alt="Google Scholar Icon">
+                    <a class="hyperlinks" href="https://scholar.google.com/citations?user=zpEIM5sAAAAJ" target="_blank">Google Scholar</a>
+                </div>
+            
+                <div class="icon-link">
+                    <img class=icons src="image/icon_linkedin.png">
+                    <a class = hyperlinks href="https://www.linkedin.com/in/zhuw/" target="_blank">Linkedin</a>
+                </div>
+
+                <div class="icon-link">
+                    <img class="icons" src="image/icon_email.png" alt="Email Icon">
+                    <p class="email-text">zhu dot wang at nyu dot edu</p>
+                </div>
+
+            </div>
+
+            <div class="about-text">
+                <p>I am a post-doctoral researcher at Future Reality Lab, New York University. I received my PhD in Computer Science from New York University, advised by <a href="https://cs.nyu.edu/~perlin/" target="_blank">Prof. Ken Perlin</a>. My research interests span several areas including XR, HCI, robotics, and AI. More specifically, I have been working on: 1. Human balance assessment and rehabilitation with motion analysis, eye-tracking, and force-sensing technologies; 2. XR-based multi-participant collaboration and communication; 3. Interactions with mobile robots and drones; 4. Data-driven content generation and retrieval.</p>
+                
+            </p>
+            </div>
+        </div>
+    </div>
+<!-- Projects Section -->
+    <div class="content" id="projects">
+        <h2>Selected Projects</h2>
+        † Equal contribution &emsp; * Equal advising
+
+        <div class="project">
+            <div class="video-container">
+                <iframe class="project-video" src="https://www.youtube.com/embed/L0QmnD0Gl48"></iframe>
+            </div>
+            <div class="project-details">
+                <b>“Push-That-There”: Tabletop Multi-robot Object Manipulation via Multimodal 'Object-level Instruction'</b>
+                <br>
+                <i>Keru Wang, <b>Zhu Wang</b>, Ken Nakagaki, Ken Perlin</i>
+                <br>
+                <p>The system enables users to intuitively control a multi-robot system to manipulate objects on tabletop surfaces through various modalities like gestures, GUI, tangible manipulation, and speech. The multi-robot system then autonomously anc collectively executes the instructions using a generalizable control algorithm. This approach emphasizes object-level interaction, allowing users to work at a higher level without managing individual robot movements.</p>
+                <div class="project-links">
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3643834.3661542" target="_blank">ACM DIS 2024</a> | 
+                    <a href="pdf/3643834.3661542.pdf" target="_blank">PDF</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="thumbnail-container">
+                <img src="image/gallery_setup.png" alt="Project Thumbnail" class="project-thumbnail">
+            </div>
+            <div class="project-details">
+                <b>A Spatial Audio System for Co-Located Multi-Participant Extended Reality Experiences</b>
+                <br>
+                <i>Yi Wu, Agnieszka Roginska, Keru Wang, <b>Zhu Wang</b>, Ken Perlin</i>
+                <br>
+                <p>This paper presents the ongoing development of a spatial audio system for co-located, multi-participant, extended reality (CMXR) experiences. By integrating spatial audio and informative auditory displays, the system can enhance the sense of immersion and presence among participants and facilitate collaboration.</p>
+                <div class="project-links">
+                    <a href="https://icad2024.icad.org/wp-content/uploads/2024/06/ICAD_2024_paper_28.pdf" target="_blank">ICAD 2024</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="thumbnail-container">
+                <img src="image/sensory-integration.jpg" alt="Project Thumbnail" class="project-thumbnail">
+            </div>
+            <div class="project-details">
+                <b>Decrease in Head Sway as a Measure of Sensory Integration Following Vestibular Rehabilitation: A Randomized Controlled Trial</b>
+                <br>
+                <i>Anat V Lubetzky, Daphna Harel, Santosh Krishnamoorthy, Gene Fu, Brittani Morris, Andrew Medlin, <b>Zhu Wang</b>, Ken Perlin, Agnieszka Roginska, Maura Cosetti, Jennifer Kelly</i>
+                <br>
+                <p>This study is to determine the extent to which sensory integration strategies via head sway, derived from a Head-Mounted Display (HMD), change in people with vestibular disorders following vestibular rehabilitation.</p>
+                <div class="project-links">
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10405044/" target="_blank">Journal of Vestibular Research 2023</a> | 
+                    <a href="pdf/nihms-1919440.pdf" target="_blank">PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="video-container">
+                <iframe class="project-video" src="https://www.youtube.com/embed/269bo-XhcDg"></iframe>
+            </div>
+            <div class="project-details">
+                <b>Asymmetrical VR for Education</b>
+                <br>
+                <i>Keru Wang, <b>Zhu Wang</b>, Ken Perlin</i>
+                <br>
+                <p>We present a system that utilizes hand-held devices for non-VR instructors, enabling them to explore VR content and interact with students who are fully immersed in VR. The instructor can observe the VR environment or switch between different students’ first-person views by using commonly available hand-held devices, such as smartphones and tablets. The instructor can also use hand-held devices to interact with the VR world itself. The students can see the real-time video stream of the physical environment as well as a video stream of the instructor.</p>
+                <div class="project-links">
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3588027.3595600" target="_blank">ACM Siggraph Immersive Pavilion 2023</a> | 
+                    <a href="pdf/3588027.3595600.pdf" target="_blank">PDF</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="video-container">
+                <iframe class="project-video" src="https://www.youtube.com/embed/yJPgs6FekiE"></iframe>
+            </div>
+            <div class="project-details">
+                <b>Zero-shot multi-modal artist-controlled retrieval and exploration of 3d object sets</b>
+                <br>
+                <i>Kristofer Schlachter†, Benjamin Ahlbrand†, <b>Zhu Wang</b>, Ken Perlin, Valerio Ortenzi</i>
+                <br>
+                <p>Our approach allows for multi-modal conditional feature-driven retrieval through a 3D asset database, by utilizing a combination of input latent embeddings. We explore the effects of different combinations of feature embeddings across different input types and weighting methods.</p>
+                <div class="project-links">
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3550340.3564216" target="_blank">ACM Siggraph Asia Technical Communications 2022</a> | 
+                    <a href="https://arxiv.org/pdf/2209.00682" target="_blank">PDF</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="thumbnail-container">
+                <img src="image/plosone.png" alt="Project Thumbnail" class="project-thumbnail">
+            </div>
+            <div class="project-details">
+                <b>Insight into postural control in unilateral sensorineural hearing loss and vestibular hypofunction</b>
+                <br>
+                <i>Anat V Lubetzky, Jennifer L Kelly, Daphna Harel, Agnieszka Roginska, Bryan D Hujsak, <b>Zhu Wang</b>, Ken Perlin, Maura Cosetti </i>
+                <br>
+                <p>This pilot study aimed to identify postural strategies in response to sensory perturbations (visual, auditory, somatosensory) in adults with and without sensory loss.</p>
+                <div class="project-links">
+                    <a href="https://doi.org/10.1371/journal.pone.0276251" target="_blank">PLOS One 2022</a> | 
+                    <a href="pdf/journal.pone.0276251.pdf" target="_blank">PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="video-container">
+                <iframe class="project-video" src="https://www.youtube.com/embed/ETO5zSpzQ3g"></iframe>
+            </div>
+            <div class="project-details">
+                <b>Mixed Reality Collaboration for Complementary Working Styles</b>
+                <br>
+                <i>Keru Wang, <b>Zhu Wang</b>, Karl Rosenberg, Zhenyi He, Dong Woo Yoo, Un Joo Christopher, Ken Perlin</i>
+                <br>
+                <p>Our project combines immersive VR, multitouch AR, real-time volumetric capture, motion capture, robotically-actuated tangible interfaces at multiple scales, and live coding, in service of a human-centric way of collaborating. </p>
+                <div class="project-links">
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3532834.3536216" target="_blank">ACM Siggraph Immersive Pavilion 2022</a> | 
+                    <a href="https://www.youtube.com/embed/2VZ9PEG9wSg?si=KXekCjdumihf2Hds" target="_blank">Siggraph Now panel discussion</a> | 
+                    <a href="pdf/3532834.3536216.pdf" target="_blank">PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="thumbnail-container">
+                <img src="image/vr-scenes.jpg" alt="Project Thumbnail" class="project-thumbnail">
+            </div>
+            <div class="project-details">
+                <b>Contextual sensory integration training via head mounted display for individuals with vestibular disorders: a feasibility study</b>
+                <br>
+                <i>Anat V. Lubetzky, Jennifer Kelly, <b>Zhu Wang</b>, Marta Gospodarek, Gene Fu, John Sutera, Bryan D. Hujsak</i>
+                <br>
+                <p>The purpose of this study was to test the feasibility of a novel VR application (app) developed for a Head Mounted Display (HMD) to target dizziness, imbalance and sensory integration in a functional context for patients with vestibular disorders. </p>
+                <div class="project-links">
+                    <a href="https://doi.org/10.1080/17483107.2020.1765419" target="_blank">
+                        Disability and Rehabilitation: Assistive Technology, Issue 1 Volume 17, 2022</a> | 
+                    <a href="pdf/Contextual sensory integration training via head mounted display for individuals with vestibular disorders  a feasibility study.pdf" target="_blank">PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="video-container">
+                <iframe class="project-video" src="https://www.youtube.com/embed/q9raAMWi2Do"></iframe>
+            </div>
+            <div class="project-details">
+                <b>VRGaitAnalytics: Visualizing Dual Task Cost for VR Gait Assessment
+                </b>
+                <br>
+                <i><b>Zhu Wang</b>, Liraz Arie, Anat V Lubetzky, Ken Perlin</i>
+                <br>
+                <p> We present a low-cost novel VR gait assessment system that simulates virtual obstacles, visual, auditory, and cognitive loads while using motion tracking to assess participants’ walking performance. The system utilizes in-situ spatial visualization for trial playback and instantaneous outcome measures which enable experimenters and participants to observe and interpret their performance.</p>
+                <div class="project-links">
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3489849.3489874" target="_blank">ACM VRST 2021</a> | 
+                    <a href="pdf/VRGaitAnalytics_Visualizing_Dual_Task_Cost_for_VR_Gait_Assessment.pdf" target="_blank">PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="video-container">
+                <iframe class="project-video" src="https://www.youtube.com/embed/soTQ21ogWPU"></iframe>
+            </div>
+            <div class="project-details">
+                <b>Walking Balance Assessment with Eye-tracking and Spatial Data Visualization</b>
+                <br>
+                <i><b>Zhu Wang</b>, Anat Lubetzky, Ken Perlin</i>
+                <br>
+                <p>we present a novel walking balance assessment system with eye tracking to investigate the role of eye movement in walking balance and spatial data visualization to better interpret and understand the experimental data. The spatial visualization includes instantaneous in-situ VR replay for the gaze, head, and feet; and data plots for the outcome measures. The system fills a need to provide eye tracking and intuitive feedback in VR to experimenters, clinicians, and participants in real-time.</p>
+                <div class="project-links">
+                    <a href="https://doi.org/10.1145/3450615.3464533" target="_blank">ACM Siggraph Immersive Pavilion 2021</a> | 
+                    <a href="pdf/3450615.3464533.pdf" target="_blank">PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="video-container">
+                <iframe class="project-video" src="https://www.youtube.com/embed/_xScdoJ6df0"></iframe>
+            </div>
+            <div class="project-details">
+                <b>A Virtual Obstacle Course within Diverse Sensory Environments</b>
+                <br>
+                <i><b>Zhu Wang</b>, Anat Lubetzky, Charles Hendee, Marta Gospodarek, Ken Perlin</i>
+                <br>
+                <p>We developed a novel assessment platform with untethered virtual reality, 3D sounds, and pressure sensing floor mat to help assess the walking balance and negotiation of obstacles given diverse sensory load and/or cognitive load.</p>
+                <div class="project-links">
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3388536.3407875" target="_blank">ACM Siggraph Immersive Pavilion 2020</a> | 
+                    <a href="pdf/3388536.3407875.pdf" target="_blank">PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="thumbnail-container">
+                <img src="image/head-mounted-displays-for-capturing-head-kinematics-in-postural-tasks.png" alt="Project Thumbnail" class="project-thumbnail">
+            </div>
+            <div class="project-details">
+                <b>Head Mounted Displays for Capturing Head Kinematics in Postural Tasks</b>
+                <br>
+                <i>Anat V. Lubetzky, <b>Zhu Wang</b>, Tal Krasovsky</i>
+                <br>
+                <p> We investigated concurrent validity of head tracking of two Head Mounted Displays (HMDs), Oculus Rift and HTC Vive, vs. a gold-standard motion capture system (Qualisys). Our results generally support the concurrent validity of Oculus Rift and HTC Vive head tracking during static and dynamic standing tasks in healthy young adults. Specific task- and direction-dependent differences should be considered when planning measurement studies using these novel tools.</p>
+                <div class="project-links">
+                    <a href="https://doi.org/10.1016/j.jbiomech.2019.02.004" target="_blank"> Journal of Biomechanics,Volume 86,2019</a> | 
+                    <a href="pdf/head-mounted-displays-for-capturing-head-kinematics-in-postural-tasks.pdf" target="_blank">PDF</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="project">
+            <div class="thumbnail-container">
+                <img src="image/Virtual-four-square-step-test.png" alt="Project Thumbnail" class="project-thumbnail">
+            </div>
+            <div class="project-details">
+                <b>A Virtual Reality Four-Square Step Test for Quantifying Dynamic Balance Performance in People with Persistent Postural Perceptual Dizziness</b>
+                <br>
+                <i>Moshe MH Aharoni, Anat V Lubetzky, <b>Zhu Wang</b>, Maya Goldman, Tal Krasovsky</i>
+                <br>
+                <p> We evaluated the feasibility of a novel paradigm for evaluation of dynamic balance within complex visual environments in people with PPPD. Results indicated that performance of the FSST-VR is feasible and did not aggravate symptoms for people with PPPD.</p>
+                <div class="project-links">
+                    <a href="https://ieeexplore.ieee.org/document/9082568" target="_blank"> 
+                        IEEE ICVR 2019</a> | 
+                    <a href="pdf/A_Virtual_Reality_Four-Square_Step_Test_for_Quantifying_Dynamic_Balance_Performance_in_People_with_Persistent_Postural_Perceptual_Dizziness.pdf" target="_blank">PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="thumbnail-container">
+                <img src="image/vr-scenes.jpg" alt="Project Thumbnail" class="project-thumbnail">
+            </div>
+            <div class="project-details">
+                <b>Head mounted display application for contextual sensory integration training: design, implementation, challenges and patient outcomes</b>
+                <br>
+                <i>Anat V Lubetzky, Jennifer Kelly, <b>Zhu Wang</b>, Makan TaghaviDilamani, Marta Gospodarek, Gene Fu, Erin Kuchlewski, Bryan Hujsak</i>
+                <br>
+                <p> We developed a VR HMD application that allows patients to practice contextual sensory integration (C.S.I) while sitting, standing, turning or stepping within diverse scenes. This application can become an integral part of vestibular rehabilitation. In this pilot study, usability and preliminary outcomes were tested in a mixed-methods descriptive study. Recommendation for future research and clinical implementation are discussed.</p>
+                <div class="project-links">
+                    <a href="https://ieeexplore.ieee.org/abstract/document/8994437" target="_blank"> 
+                        IEEE ICVR 2019</a> | 
+                    <a href="pdf/Head_Mounted_Display_Application_for_Contextual_Sensory_Integration_Training_Design_Implementation_Challenges_and_Patient_Outcomes.pdf" target="_blank">PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="thumbnail-container">
+                <img src="image/VR-rehab-posturalcontrol.png" alt="Project Thumbnail" class="project-thumbnail">
+            </div>
+            <div class="project-details">
+                <b>Virtual Environments for Rehabilitation of Postural Control Dysfunction</b>
+                <br>
+                <i><b>Zhu Wang</b>, Anat Lubetzky, Marta Gospodarek, Makan TaghaviDilamani, Ken Perlin</i>
+                <br>
+                <p> We developed a novel virtual reality [VR] platform with 3-dimensional sounds to help improve sensory integration and visuomotor processing for postural control and fall prevention in individuals with balance problems related to sensory deficits, such as vestibular dysfunction (disease of the inner ear). The 3D game-like scenes make participants feel immersed and gradually exposes them to situations that may induce dizziness, anxiety or imbalance in their daily-living. </p>
+                <div class="project-links">
+                    <a href="https://arxiv.org/pdf/1902.10223" target="_blank"> 
+                        arXiv 2019</a>
+                </div>
+            </div>
+        </div>
+        <!-- Add more projects as needed -->
+    </div>
+
+<!-- CV section -->
+    <!-- <div class="content" id="cv">
+        <h2>CV</h2>
+        <p></p>
+            <a href="https://github.com/your-github">GitHub</a>
+            <a href="mailto:your-email@example.com">Email</a>
+    </div> -->
+
+    <footer>
+        <p>&copy; 2024 Zhu Wang. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    /* padding: 1em 0;
+    text-align: center; */
+}
+nav {
+    background-color: #444;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+}
+.content {
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+}
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+}
+.profile-photo {
+    margin-right: 1em;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.about-text {
+    /* flex: 1; */
+    /* text-align: left; */
+    max-width: 900px;
+
+}
+.project {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1em;
+    max-width: 900px;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+}
+.thumbnail-container {
+    margin-right: 1em;
+}
+.project-thumbnail {
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+    flex-shrink: 0;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative; 
+    object-fit: contain;
+}
+.video-container {
+    margin-right: 1em;
+    width: 320px;
+    height: 240px;
+    border-width: 0px;
+    margin-bottom: 10px;
+}
+.project-video {
+    width: 320px;
+    height: 240px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-start;
+}
+.project-details {
+    flex-grow: 1;
+    margin: 0;
+    align-self: flex-start;
+    /* flex: 1; */
+}
+.project-links {
+    margin-top: 0.5em;
+}
+.hyperlinks{
+    font-size: 1.1em;
+    margin-left: 2px;
+}
+.icon-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.icon-link {
+    display: flex;
+    align-items: left; /* Aligns items (icon and link) in the center vertically */
+    margin-left: 20px; /* Adds space between each icon-link pair */
+    margin-top: 20px; /* Adds space between each icon-link pair */
+
+}
+.icons {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px; /* Space between icon and text */
+}
+.email-text {
+    margin-top: 0px;
+    margin-left: 4px; /* Add some spacing between the icon and the text */
+    font-size: 1.1em;
+    color: #000; /* Adjust the text color if necessary */
+}
+.hyperlinks {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #000; /* Adjust color if needed */
+    text-decoration: underline;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0;
+    width: 100%;
+}
+
+/* Mobile Optimization with Media Queries */
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column; /* Stack thumbnail and details vertically */
+    }
+
+    .thumbnail-container,
+    .video-container {
+        width: 100%; /* Make these containers take full width on mobile */
+        margin-right: 0;
+    }
+
+    .project-thumbnail,
+    .project-video {
+        width: 100%; /* Ensure the video and images are responsive */
+        height: 100%;
+    }
+
+    .about-section {
+        flex-direction: column; /* Stack items in the about section on mobile */
+        align-items: center;
+    }
+    .icon-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* justify-content: flex-start; */
+    }
+    .icon-link {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+    .email-text {
+        margin-top: 0px;
+        margin-left: 2px;
+        font-size: 1.1em;
+        color: #000; /* Adjust the text color if necessary */
+    }
+    .profile-photo {
+        margin-right: 0;
+        margin-bottom: 1em;
+        width: 300px; /* Smaller size for mobile screens */
+        height: 300px;
+    }
+
+    .about-text {
+        padding: 1em;
+    }
+
+    nav a {
+        display: block; /* Stack nav links vertically */
+        margin: 0.5em 0;
+    }
+
+    .content {
+        padding: 1em; /* Adjust padding for smaller screens */
+    }
+}
